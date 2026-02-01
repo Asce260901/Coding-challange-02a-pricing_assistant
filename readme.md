@@ -1,0 +1,1 @@
+Just a basic pricing assistant
