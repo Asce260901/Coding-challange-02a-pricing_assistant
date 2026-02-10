@@ -12,8 +12,8 @@ let breakEvenUnits = Math.ceil(fixedMonthlyCost / profitPerUnit);
 let isProfitablePerUnit = profitPerUnit > 0 ;
 
 console.log( "The product is:" +  productName,);
-console.log(`The price after discount:$${discountedPrice}`,);
-console.log(`The client pays in total:$${finalPriceWithTax}`,);
-console.log(`Your profit:$${profitPerUnit}`,);
+console.log(`The price after discount:$${discountedPrice.toFixed(2)}`,);
+console.log(`The client pays in total:$${finalPriceWithTax.toFixed(2)}`,);
+console.log(`Your profit:$${profitPerUnit.toFixed(2)}`,);
 console.log("The breakeven units are:" + breakEvenUnits,);
 console.log("Is it profitable to the company?:" + isProfitablePerUnit,);
